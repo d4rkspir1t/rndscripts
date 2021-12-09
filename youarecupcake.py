@@ -11,8 +11,8 @@ def fetch(arguments,index):
 lv = 'Cupcake'
 
 arguments =[item.lower() for item in sys.argv[1:]]
-if fetch(arguments, 0) == "love":
-    if fetch(arguments, 1) == lv:
+if fetch(arguments, 1) == "love":
+    if fetch(arguments, 2) == lv:
         print('Of course, she\'s so cool even The Economist wants her')
     else:
         print('No! You love %s. SAYIT!' % (lv.capitalize()))
