@@ -12,7 +12,10 @@ lv = 'Cupcake'
 
 arguments =[item.lower() for item in sys.argv[1:]]
 print(arguments)
-if fetch(arguments, 1) == "love":
+print(fetch(arguments, 1)
+print(fetch(arguments, 2)
+print(fetch(arguments, 3)
+if fetch(arguments, 1) == 'love':
     if fetch(arguments, 2) == lv:
         print('Of course, she\'s so cool even The Economist wants her')
     else:
